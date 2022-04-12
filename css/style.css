@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+.root{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.root button{
+    padding: 12px 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+    color: #000; 
+    font-weight: bold;
+}
+.root h1{
+    color: #fff;  
+    text-shadow: 0px 2px 15px #000000;
+    text-align: center;
+}
+
+
